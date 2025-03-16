@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Improv Title Chooser</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+     <div class="container">
+         <h1>Improv Title Chooser</h1>
+         <div id="title-display">
+             <p>Click "Get Title" to start!</p>
+         </div>
+         <div class="controls">
+             <button id="get-title-btn">Get Title</button>
+             <button id="undo-btn" disabled>Undo</button>
+         </div>
+     </div>
+ 
+     <script src="script.js"></script>
+ </body>
+ </html>
+ 
